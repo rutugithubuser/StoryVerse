@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STORYVERSE</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- PROFILE SCREEN -->
+
+<div id="profile-screen">
+  <h1 class="profile-title">Who's Watching?</h1>
+  <div class="profiles">
+    <div class="profile" onclick="enterNetflix()">
+      <img src="images/profile.jpg">
+      <p>US</p>
+    </div>
+  </div>
+</div>
+
+<!-- SPLASH -->
+
+<div id="splash-screen">
+  <h1 class="splash-text">STORYVERSE</h1>
+</div>
+
+<audio id="bg-music" src="sounds/intro.mp3"></audio>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+  <h1 class="logo">STORYVERSE</h1>
+  <ul class="nav-links">
+    <li>Home</li>
+    <li>Series</li>
+    <li>Movies</li>
+    <li>My List</li>
+  </ul>
+</nav>
+
+<!-- BANNER -->
+
+<header class="banner">
+
+  <!-- SLIDER -->
+
+  <div class="banner-slider">
+    <img src="images/banner1.jpg" class="slide active">
+    <img src="images/banner2.jpg" class="slide">
+    <img src="images/banner3.jpg" class="slide">
+    <img src="images/banner4.jpg" class="slide">
+  </div>
+
+  <!-- CONTENT -->
+
+  <div class="banner-content">
+    <h1 class="title">THE TRIP</h1>
+    <p class="description">
+      Ten episodes. Countless memories.
+      One incredible journey with the people who made it unforgettable.
+    </p>
+
+
+<div class="buttons">
+  <button class="play-btn">▶ Play</button>
+  <button class="info-btn">ℹ More Info</button>
+</div>
+
+<p class="meta-info">
+  <span class="match">StoryVerse Original</span>
+  <span>2026</span>
+  <span>Travel Series</span>
+  <span>10 Episodes</span>
+</p>
+
+
+  </div>
+
+</header>
+
+
+<!-- ROW -->
+
+<section class="row">
+  <h2>Season 1</h2>
+  <div class="row-posters">
+
+
+<div class="card"><img src="thumbnails/1.jpg"><div class="card-info">Episode 1</div></div>
+<div class="card"><img src="thumbnails/2.jpg"><div class="card-info">Episode 2</div></div>
+<div class="card"><img src="thumbnails/3.jpg"><div class="card-info">Episode 3</div></div>
+<div class="card"><img src="thumbnails/4.jpg"><div class="card-info">Episode 4</div></div>
+<div class="card"><img src="thumbnails/5.jpg"><div class="card-info">Episode 5</div></div>
+<div class="card"><img src="thumbnails/6.jpg"><div class="card-info">Episode 6</div></div>
+<div class="card"><img src="thumbnails/7.jpg"><div class="card-info">Episode 7</div></div>
+<div class="card"><img src="thumbnails/8.jpg"><div class="card-info">Episode 8</div></div>
+<div class="card"><img src="thumbnails/9.jpg"><div class="card-info">Episode 9</div></div>
+<div class="card"><img src="thumbnails/10.jpg"><div class="card-info">Episode 10</div></div>
+
+  </div>
+</section>
+
+<!-- PLAYER -->
+
+<div id="player" class="player hidden">
+  <video id="video"></video>
+
+  <!-- CONTROLS -->
+
+  <div class="controls">
+    <button id="playPause">▶</button>
+    <input type="range" id="progress" value="0">
+    <button id="muteBtn">🔊</button>
+    <button id="fullscreenBtn">⛶</button>
+  </div>
+
+  <!-- NEXT -->
+
+  <div id="next-popup" class="hidden">
+    <p>Up Next</p>
+    <button onclick="playNext()">▶ Next Episode</button>
+  </div>
+
+<button id="next-btn" class="hidden" onclick="playNext()">Next Episode ▶</button> <button class="close-btn" onclick="closePlayer()">✖</button>
+
+</div>
+
+<!-- NETFLIX STYLE INFO MODAL -->
+
+<div id="info-modal" class="hidden">
+
+  <div class="info-hero">
+
+
+<button class="close-info" onclick="closeInfo()">✖</button>
+
+<div class="info-overlay"></div>
+
+<div class="info-text">
+  
+
+  <p>
+ About This Journey<br>
+
+Use this section to tell the story behind your memories. Share what made the experience special, who was part of it, and why these moments matter.
+
+Whether it's a travel adventure, a friendship, a family celebration, or a personal milestone, StoryVerse helps transform memories into an immersive storytelling experience.
+
+ 
+  </p>
+
+</div>
+
+
+  </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
