@@ -10,3 +10,6 @@ Thumbs.db
 
 # Temporary files
 *.tmp
+
+# Videos
+videos/

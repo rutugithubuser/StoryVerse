@@ -61,3 +61,7 @@ StoryVerse/
 ### Project Description
 
 StoryVerse demonstrates how personal stories, travel memories, and multimedia content can be transformed into an engaging OTT-style viewing experience. Inspired by modern streaming platforms, the project focuses on interactive storytelling, custom media controls, responsive design, and seamless user experience.
+
+## Note
+
+Video assets are not included in this repository to keep the project lightweight.
