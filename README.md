@@ -2,6 +2,10 @@
 
 ### OTT-Inspired Interactive Storytelling Platform
 
+## Live Demo
+
+🔗 [storyverse24.netlify.app](https://storyverse24.netlify.app/)
+
 ## Overview
 
 StoryVerse is a Netflix-inspired web application that transforms memories, stories, and multimedia content into an immersive streaming-style experience. The platform recreates the feel of a modern OTT service through episode-based storytelling, dynamic content presentation, and custom media interactions.
